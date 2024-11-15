@@ -1,0 +1,30 @@
+Documentation
+Overview: The game is built using Flutter and Dart. The main components are:
+
+MarbleGameScreen: The UI for the game board, turn display, and controls.
+GameLogic: Manages the game board, player turns, win conditions, and marble shifting.
+Libraries Used:
+
+Flutter: For UI and interactive elements.
+
+
+
+
+Approach:
+The game board is represented by a 4x4 grid.
+Players place marbles by tapping cells, and marbles shift counterclockwise after each turn.
+A win is declared when four consecutive marbles are aligned horizontally, vertically, or diagonally.
+3. User Guide
+Objective: Align four of your marbles (either horizontally, vertically, or diagonally) to win.
+
+Rules:
+
+Each player takes turns placing a marble on an empty cell.
+After every turn, all marbles shift one cell counterclockwise.
+If a player fails to place a marble within 10 seconds, their turn is skipped.
+The game ends when a player aligns four marbles consecutively.
+Controls:
+
+Tap an empty cell to place your marble.
+Monitor the timer; each player has 10 seconds per turn.
+Use the "Restart Game" button to start a new game.
